@@ -20,4 +20,4 @@ See the excercises live here:
 
 MIT
 
-Many thanks to Matt Zabriskie
+_Many thanks to Matt Zabriskie for his excellent work_
