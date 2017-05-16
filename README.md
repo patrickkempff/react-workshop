@@ -14,7 +14,7 @@ $ surf to http://127.0.0.1:8080
 
 See the excercises live here:
 
-- 01 - Components - [Bron](https://github.com/patrickkempff/react-workshop/blob/master/oefeningen/01/index.js)
+- 01 - Components - [Broncode](https://github.com/patrickkempff/react-workshop/blob/master/oefeningen/01/index.js)
 
 ## License
 
