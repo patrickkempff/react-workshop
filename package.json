@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/patrickkempff/react-workshop.git"
   },
-  "author": "Matt Zabriskie",
+  "author": "Matt Zabriskie, Patrick Kempff",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/patrickkempff/react-workshop/issues"
