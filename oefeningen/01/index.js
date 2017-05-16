@@ -163,7 +163,7 @@ ReactDOM.render(<div>Hello World!</div>, document.getElementById('app'));
  * presenteerbare interface zodat de 2 hoofd concerns van iedereen webapp gescheiden kunnen worden;
  * data laag en presentatie laag.
  *
- * Om een lang verhaal lang te maken, terug naar JSX. JSX steld ons dus in staat om vitale presentaie
+ * Om een lang verhaal lang te maken, terug naar JSX. JSX stelt ons dus in staat om vitale presentaie
  * concerns op de logische plek binnen de applicatie te borgen.
  *
  *
