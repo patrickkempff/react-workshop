@@ -61,20 +61,6 @@ const container = document.getElementById('app');
  *  Success!
  */
 
-let Box = (props) => {
-  return (
-    <div className={`c-box c-box--${props.size}`} style={props.style}>
-      {props.children}
-    </div>
-  );
-};
-
-Box.propTypes = {
-  size: PropTypes.string,
-  style: PropTypes.object
-};
-
-ReactDOM.render(<Box size="large" style={{backgroundColor: '#e8117f'}}/>, container);
 
 /**
  *

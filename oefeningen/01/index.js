@@ -80,10 +80,6 @@ ReactDOM.render(
  *
  */
 
-ReactDOM.render(
-  React.createElement('div', null, 'Hello World'),
-  document.getElementById('app')
-);
 
 /**
  *
@@ -118,8 +114,6 @@ ReactDOM.render(
  *  Refactor je vorige oplossing door gebruik te maken van JSX
  *
  */
-
-ReactDOM.render(<div>Hello World!</div>, document.getElementById('app'));
 
 
 /**

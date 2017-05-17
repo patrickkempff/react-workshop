@@ -80,13 +80,6 @@ const container = document.getElementById('app');
  *  om "Hallo Jan Janssen!" te renderen.
  */
 
-let SayHello = (props) => {
-  return (
-    <div>Hello {props.firstName} {props.lastName}!</div>
-  );
-};
-
-ReactDOM.render(<SayHello firstName="Jane" lastName="Doe"/>, container);
 
 /**
  * Het kan voorkomen dat je de props die aan je component worden meegegeven wilt
@@ -144,21 +137,3 @@ ReactDOM.render(<SayHello firstName="Jane" lastName="Doe"/>, container);
  *  Uit eindelijk moet er iets uitkomen in lijn met "Hello El1teSnipaH32_NL (Henk Jansen)".
  */
 
-let ValidateHello = (props) => {
-  return (
-    <div>Hello {props.user.firstName} {props.user.lastName}</div>
-  );
-};
-
-ValidateHello.defaultProps = {
-  user: {}
-};
-
-ValidateHello.propTypes = {
-  user: PropTypes.shape({
-    firstName: PropTypes.string,
-    lastName: PropTypes.string
-  })
-};
-
-ReactDOM.render(<ValidateHello user={{firstName: 'Jane', lastName: 'Doe'}}/>, container);
