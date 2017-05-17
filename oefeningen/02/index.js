@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 
-const container = document.getElementById('container');
+const container = document.getElementById('app');
 
 /**
  * Het is mogelijk om aan React componenten data mee te geven. Deze data noemen we
