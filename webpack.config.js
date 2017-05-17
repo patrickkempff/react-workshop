@@ -7,6 +7,7 @@ module.exports = {
     '01': './oefeningen/01/index.js',
     '02': './oefeningen/02/index.js',
     '03': './oefeningen/03/index.js',
+    '04': './oefeningen/04/index.js',
   },
 
   output: {

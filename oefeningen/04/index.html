@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Oefening 04 - Composing Components</title>
+  <style type="text/css">
+    * {
+      box-sizing: border-box;
+    }
+
+    .c-person {
+      text-align: center;
+    }
+
+    .c-person .c-avatar {
+      display: block;
+      margin: 0 auto 15px;
+    }
+
+    .c-person b {
+      display: block;
+      font-size: 18px;
+    }
+    .c-person em {
+      display: block;
+    }
+    .c-person ul {
+      margin: 10px 0 0;
+      padding: 0;
+    }
+    .c-person li {
+      display: inline-block;
+    }
+
+    .c-icon {
+      background: #fff;
+      border-radius: 21px;
+      color: #777;
+      display: inline-block;
+      font-size: 28px;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      padding-top: 5px;
+    }
+    .c-icon:hover {
+      background: #36c;
+      color: #fff;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"/>
+</head>
+<body style="font-family: Arial;">
+  <h1>Oefening 04 - Composing Components</h1>
+  <div id="app"></div>
+  <script src="/build/shared.js"></script>
+  <script src="/build/04.js"></script>
+</body>
+</html>
