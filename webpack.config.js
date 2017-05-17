@@ -4,7 +4,8 @@ var webpack = require('webpack');
 module.exports = {
 
   entry: {
-    '01': './oefeningen/01/index.js'
+    '01': './oefeningen/01/index.js',
+    '02': './oefeningen/02/index.js'
   },
 
   output: {
