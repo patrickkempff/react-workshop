@@ -7,7 +7,7 @@ module.exports = {
     '01': './oefeningen/01/index.js',
     '02': './oefeningen/02/index.js',
     '03': './oefeningen/03/index.js',
-    '04': './oefeningen/04/index.js',
+    '04': './oefeningen/04/index.js'
   },
 
   output: {
@@ -18,14 +18,16 @@ module.exports = {
   },
 
   module: {
-    rules: [
-      { test: /\.(js|jsx)$/, include: /oefeningen/, exclude: /node_modules/,  use: {loader: 'babel-loader', options: {cacheDirectory: true} } },
-    ]
+    rules: [{
+      test: /\.(js|jsx)$/,
+      include: /oefeningen/,
+      exclude: /node_modules/,
+      use: {loader: 'babel-loader'}
+    }]
   },
 
   plugins: [
     new webpack.NamedModulesPlugin(),
     new webpack.optimize.CommonsChunkPlugin('shared')
   ]
-
 };

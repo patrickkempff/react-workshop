@@ -12,8 +12,5 @@ insert_final_newline = true
 [*.json]
 indent_size = 2
 
-[*.{gql,graphql}]
-indent_size = 2
-
 [*.md]
 trim_trailing_whitespace = false
